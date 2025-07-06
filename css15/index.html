@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Card</title>
+  <style>
+    body {
+      background-color: #e9f1f5;
+      font-family: Arial, sans-serif;
+      margin: 0;
+    }
+
+    header {
+      background-color: #2563eb;
+      padding: 10px 0;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav ul li {
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: calc(100vh - 60px);
+    }
+
+    .box {
+      width: 320px;
+      background: #fff;
+      border-radius: 20px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      padding: 10px;
+      text-align: left;
+    }
+
+    .box img {
+      width: 100%;
+      border-radius: 20px;
+    }
+
+    .tags {
+      margin: 15px 0 10px;
+    }
+
+    .tag {
+      display: inline-block;
+      background-color: #f0f0f0;
+      color: #444;
+      border-radius: 20px;
+      padding: 5px 10px;
+      margin-right: 5px;
+      font-size: 12px;
+    }
+
+    .title {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .description {
+      font-size: 14px;
+      color: #666;
+      margin-bottom: 20px;
+    }
+
+    .button {
+      background-color: #dbeafe;
+      color: #2563eb;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-weight: 500;
+      display: inline-block;
+    }
+
+    .button:hover {
+      background-color: #bfdbfe;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/">About</a></li>
+        <li><a href="/">Services</a></li>
+        <li><a href="/">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="box">
+      <img src="img.jpg" alt="nature image" />
+      <div class="tags">
+        <span class="tag">Nature</span>
+        <span class="tag">Lake</span>
+      </div>
+      <div class="title">Lago di Braies</div>
+      <div class="description">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Consectetur sodales morbi dignissim sed diam pharetra vitae ipsum odio.
+      </div>
+      <a href="#" class="button">Read More</a>
+    </div>
+  </div>
+</body>
+
+</html>

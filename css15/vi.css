@@ -1,0 +1,24 @@
+
+     body {
+        background-color: antiquewhite;
+        font-family:Arial sans-serif; 
+        display: flex;
+        align-items: center;
+       height: 100vw;
+       margin: 0;
+       
+ }
+  .box {
+            width: 320px;
+            background: #fff;
+            border-radius: 20px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            padding: 20px;
+            text-align: left;
+        }
+
+        .box img {
+            width: 100%;
+            border-radius: 15px;
+        }

@@ -1,0 +1,15 @@
+body {
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+
+
+}
+ buttons{
+    justify-content: center;
+ color: white;
+ background-color: rgb(rgba(83, 83, 83, 0.447),);
+ z-index: 1;
+    align-items: center;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Exar Sige</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 20px;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 15px;
+      padding: 20px;
+      border: 2px solid black;
+      border-radius: 20px;
+      background-color: #fff;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .item {
+      border: 2px solid burlywood;
+      padding: 15px;
+      background-color: aliceblue;
+      text-align: center;
+      border-radius: 20px;
+      box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .item h3 {
+      margin: 0;
+      font-size: 1.1em;
+    }
+
+    .ue_copied_hash {
+      font-size: 0.75em;
+      color: #555;
+      word-wrap: break-word;
+      margin: 10px 0;
+    }
+
+    a.btn-download {
+      display: inline-block;
+      margin-top: 10px;
+      text-decoration: none;
+      background-color: #4CAF50;
+      color: white;
+      padding: 6px 12px;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    a.btn-download:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="item">
+      <h3>English</h3>
+      <p class="ue_copied_hash">3D85A4AB6BA55590A24CC3BF26EB35AC2A7DD3AFC6194AFCC16894C7975506D3</p>
+      <a href="https://downloads.ultraedit.com/main/ue/win/ue_english_64.exe" class="btn-download">Download</a>
+    </div>
+    <div class="item">
+      <h3>German</h3>
+      <p class="ue_copied_hash">28B0F1A4789C6B7B9F3B90B2DF5041F2419D924A3B743F7BA567EC64596A6BD9</p>
+      <a href="https://downloads.ultraedit.com/main/ue/win/ue_german_64.exe" class="btn-download">Download</a>
+    </div>
+    <!-- Add more languages as needed -->
+  </div>
+
+</body>
+</html>
